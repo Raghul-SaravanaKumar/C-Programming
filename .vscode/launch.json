@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run active C file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal",
+            "externalConsole": true,
+            "preLaunchTask": "Build active C file",
+            "MIMode": "lldb",
+            "miDebuggerPath": "C:\\Users\\raghu\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20260616-ucrt-x86_64\\bin\\lldb-mi.exe",
+            "stopAtEntry": false
+        }
+    ]
+}
